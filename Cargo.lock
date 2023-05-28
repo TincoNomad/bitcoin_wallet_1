@@ -97,7 +97,6 @@ version = "0.1.0"
 dependencies = [
  "anyhow",
  "bdk",
- "dotenv",
 ]
 
 [[package]]
@@ -160,12 +159,6 @@ checksum = "3c063cd8cc95f5c377ed0d4b49a4b21f632396ff690e8470c29b3359b346984b"
 dependencies = [
  "cfg-if",
 ]
-
-[[package]]
-name = "dotenv"
-version = "0.15.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "77c90badedccf4105eca100756a0b1289e191f6fcbdadd3cee1d2f614f97da8f"
 
 [[package]]
 name = "electrum-client"
