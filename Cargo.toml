@@ -8,3 +8,4 @@ edition = "2021"
 [dependencies]
 anyhow = "1.0.71"
 bdk = "0.28.0"
+rocket = { version = "0.5.0-rc.3", features = ["json"]}
